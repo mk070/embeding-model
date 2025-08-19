@@ -1,7 +1,7 @@
 Flask==2.3.2
 uvicorn[standard]==0.22.0
 sentence-transformers==2.2.2
-torch==2.2.0    # or CPU-only variant installed transitively; check Render compatibility
+torch==2.5.0    # or CPU-only variant installed transitively; check Render compatibility
 numpy==1.26.0
 pydantic==1.10.12
 gunicorn==20.1.0

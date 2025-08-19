@@ -1,7 +1,6 @@
 Flask
-uvicorn[standard]
 sentence-transformers
-torch    # or CPU-only variant installed transitively; check Render compatibility
+torch==2.5.0+cpu
 numpy
 pydantic
 gunicorn

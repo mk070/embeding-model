@@ -1,6 +1,6 @@
 Flask
 sentence-transformers
-torch==2.5.0+cpu
+torch==2.5.0 --index-url https://download.pytorch.org/whl/cpu
 numpy
 pydantic
 gunicorn
